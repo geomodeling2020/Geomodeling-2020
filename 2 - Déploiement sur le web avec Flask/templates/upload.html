@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"> 
+    <title>Geomodeling: Uploader file</title>
+  </head>
+  <body>
+
+{% block body %}
+
+    <h1>Télécharger le fichier (format csv)</h1>
+
+       <form method="POST" enctype="multipart/form-data" action="{{ url_for('upload') }}">
+        <input type="file" name="file"/>
+       <input type="submit" value="OK"/>      
+       </form>
+{% endblock %}
+   </body>
+</html>

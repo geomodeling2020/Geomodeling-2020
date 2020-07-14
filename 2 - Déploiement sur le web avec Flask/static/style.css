@@ -1,0 +1,54 @@
+form{
+    width: 50%;
+    border:1px solid#000000; 
+    text-align:center;
+    vertical-align: center;
+    background-color: #F0F0F0; /*Base Background image*/
+}
+
+input[type=submit] {
+    width: 20%;
+    height: 50px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    vertical-align:right;
+}
+
+
+input[type=radio] {
+        vertical-align:middle;
+        margin: 10px 2px;
+        
+    }
+
+label:hover {
+        color: blue;
+        width:100%;
+      }
+div{
+    background-color: rgb(175, 76, 76);
+    width:15%;
+    border: 1px solid#000000;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+
+.error {
+    color: red
+}
+
+.echec{
+    color: red
+}
+
+.victoire{
+    color: green
+}

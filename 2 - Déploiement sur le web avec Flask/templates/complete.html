@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    
+
+    <title>Geomodeling: Uploaded csv</title>
+  </head>
+  <body>
+    {% block body %}
+      <div>
+         <h2> Fichier téléchargé   </h2> 
+      </div> 
+
+      <form action="{{ url_for('download') }}">
+      <input type="submit" value="Prédire" />
+      </form>
+    {% endblock %}
+  </body>
+  </html>
